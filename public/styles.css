@@ -28,6 +28,11 @@ ol, ul {
 img{
     width:100%;
 }
+a{
+    text-decoration: none;
+    color: inherit;
+
+}
 
 /* HOME PAGE STYLES --- MOBILE*/
 
@@ -111,7 +116,7 @@ img{
     font-size: 1.8rem;
     font-weight: 500;
     color: #fff;
-    background-color: #b83057;
+    background-color:#d9446b;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
     cursor: pointer;
     transition: background-color 0.3s ease;
@@ -119,7 +124,7 @@ img{
 }
 
 .search-bar__form input[type="button"]:hover {
-    background-color: #d9446b;
+    background-color: #b83057;
 }
 
 .pokedex-btn {
@@ -130,6 +135,7 @@ img{
     text-align: center;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
     cursor: pointer; 
+    padding: 1rem;
 
     transition: background 0.3s ease;
 }
@@ -139,9 +145,8 @@ img{
 }
 
 
-.pokedex-btn p {
+.pokedex-btn a {
     font-size: 1.8rem;
-    margin-left: .8rem;
 }
 
 
